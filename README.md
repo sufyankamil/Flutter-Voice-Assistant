@@ -25,5 +25,3 @@ Key Features:
 8. Privacy and Security: Flutter Voice Assistant ensures data privacy and security, maintaining confidentiality while providing a personalized experience.
 
 By combining the strengths of ChatGPT and Dall-E, Flutter Voice Assistant revolutionizes the way users interact with AI technologies. Experience the seamless integration of conversational AI and AI image generation, making everyday tasks more convenient, information more accessible, and imagination truly visual.
-
-(Note: This is a fictional description created for the purpose of suggestion. Actual project details and features may differ based on your implementation.)

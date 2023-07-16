@@ -84,7 +84,9 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: BounceInDown(child: const Text('Allen')),
+        title: BounceInDown(
+          child: const Text('Allen is pretty simple'),
+        ),
         leading: const Icon(Icons.menu),
         centerTitle: true,
       ),
@@ -131,7 +133,7 @@ class _HomepageState extends State<Homepage> {
                     padding: const EdgeInsets.symmetric(vertical: 10.0),
                     child: Text(
                       generatedContent == null
-                          ? 'Good Morning, how cain I help you'
+                          ? 'Good Morning, how can I help you ?'
                           : generatedContent!,
                       style: TextStyle(
                           color: Pallete.mainFontColor,

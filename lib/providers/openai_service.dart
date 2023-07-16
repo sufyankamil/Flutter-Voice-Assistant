@@ -29,9 +29,7 @@ class OpenAIService {
           },
         ),
       );
-      print(result.body);
       if (result.statusCode == 200) {
-        print('Success');
         // since method of body is string, we should write the response body in jsonDecode method.(we cant store response body directly as it is string)
         String content =
             jsonDecode(result.body)['choices'][0]['message']['content'];
@@ -75,7 +73,6 @@ class OpenAIService {
         ),
       );
       if (result.statusCode == 200) {
-        print('Success');
         // since method of body is string, we should write the response body in jsonDecode method.(we cant store response body directly as it is string)
         String content =
             jsonDecode(result.body)['choices'][0]['message']['content'];
@@ -113,7 +110,6 @@ class OpenAIService {
         ),
       );
       if (result.statusCode == 200) {
-        print('Success');
         // since method of body is string, we should write the response body in jsonDecode method.(we cant store response body directly as it is string)
         String imageURL = jsonDecode(result.body)['data'][0]['url'];
         imageURL = imageURL.trim();

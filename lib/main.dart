@@ -1,6 +1,5 @@
 import 'package:allen/common/pallete.dart';
 import 'package:allen/common/splash.dart';
-import 'package:allen/screens/homepage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light(useMaterial3: true).copyWith(
           scaffoldBackgroundColor: Pallete.whiteColor,
           appBarTheme: const AppBarTheme(backgroundColor: Pallete.whiteColor)),
-      home: SplashScreen(),
+      home: const SplashScreen(),
     );
   }
 }
